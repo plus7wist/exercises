@@ -1,18 +1,23 @@
+```
 git config --global user.name plus7wist
-git config --global user.email gu\_castle@163.com
+git config --global user.email gu_castle@163.com
 git config --global core.editor vim
 git config --global diff.tool vimdiff
+```
 
 W: 工作区 working directory
 S: 暂存区 Staging area
 R: 仓库区 Repository(git directory)
 
+```
 git diff # W 和 S 比较
 git diff --cached # S 和 R 比（R 的最后一次提交）
+```
 
+```
 git rm code.cc # 删除 WS 里的
 git rm --cached code.cc # 删除 S 里的
-
+```
 
 ## undo
 
